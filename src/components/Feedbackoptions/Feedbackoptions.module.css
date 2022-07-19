@@ -1,0 +1,21 @@
+.btnBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+
+  transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(245, 245, 245, 0.56);
+}
